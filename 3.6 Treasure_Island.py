@@ -20,7 +20,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 *******************************************************************************
 ''') 
-print("by Jacobo Salas\n")
+print("by Ger0nim00\n")
 print("Welcome to Treasure Island.\n")
 print("Your mission is to find the treasure.") 
 
@@ -51,7 +51,7 @@ tunnel_choise1 = input("Let's begin amigo... there is dark tunnel in the beginni
 if tunnel_choise1 == "left":
     water_choise2 = input("\nVery good amigoo... Now that you have chosen the right door.... you will need to cross the water.\nThe sun is lowering, you might still make it before it get's dark...\n\nWhat wil you do amigo?\n\nSwim or Wait? \n\n").lower()
     if water_choise2 == "wait":
-            door_choise3 = input("]\nUuyyyyy mi amigo you have made it so far... that surprises me, you will need to choose again between doors.. but this time they have a special colour... \nBlue, Yellow, Green, Purple or Red..... which one will it be?? \n\n").lower()
+            door_choise3 = input("\nUuyyyyy mi amigo you have made it so far... that surprises me, you will need to choose again between doors.. but this time they have a special colour... \nBlue, Yellow, Green, Purple or Red..... which one will it be?? \n\n").lower()
             if door_choise3 == "yellow":
                     game_over = False
                     print("YESSSSS MI AMIGOOOOO, CONGRATULATIONS!!!!!! TEQUILA ON THE HOUSE!!!!")
